@@ -41,7 +41,7 @@ using dropna() funcion. After dropping we have completely imputed data, i.e., no
 ### 4. Creating Dummies for Categorical columns
 ### (To avoid using pd.get_dummies or OneHotEncoder) I've written my own encoder for this project. 
 First we store the unique values in a list called 'Categories' and apply a function to each categorical column which returns the
-index of the categories present in that column, which itself can be used as dummies. There's a separate repo called ganesh_encoder 
+index of the categories present in that column, which itself can be used as dummies. There's a separate repo called **ganesh_encoder** 
 at **github.com/ganeshramg** to help you understand it better
 
 ### 5. Defining dependant and Independant variable
